@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 // Megan Steinmasel
-// CSCI 112 Lab 3
 // September 2022
+// Program reads in a text file from the class server and computes exam grades
 
 
 int charOperations(FILE* fptr, char answers[], int numofq){
