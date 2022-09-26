@@ -3,7 +3,6 @@
 
 
 // Megan Steinmasel
-// CSCI 112 Lab 2
 // September 2022
 // Program splits integer into its digits, and sees if that number is divisible by 9
 
