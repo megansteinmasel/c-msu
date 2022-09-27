@@ -20,7 +20,7 @@ void funct(int userNum){
         userNum = userNum / 10;
     }
 
-    // prints" numArr" backwards and adds up the digits
+    // prints "numArr" backwards and adds up the digits
     int added = 0;
     for(int j = i -1; j > -1; j--){
         printf("%d", numArr[j]);
