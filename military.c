@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 
-// Lab One CSCI-112 Fall 2022
 // Author: Megan Steinmasel
-// Calculates military discount and sales tax
+// August 2022
+// Program calculates military discount and sales tax
 
 
 int userCost(void){
