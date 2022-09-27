@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-// Megan Steinmasel
+// Author: Megan Steinmasel
 // September 2022
 // Program splits integer into its digits, and sees if that number is divisible by 9
 
