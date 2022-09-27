@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Megan Steinmasel
+// Author: Megan Steinmasel
 // September 2022
 // Program reads in a text file from the class server and computes exam grades
 
@@ -26,7 +26,6 @@ int charOperations(FILE* fptr, char answers[], int numofq){
 
 
 // output
-
     printf("Question\t");
     for(int m = 1; m < numofq+1; m++){
         printf(" %d", m);
@@ -41,7 +40,6 @@ int charOperations(FILE* fptr, char answers[], int numofq){
 
 
 // grades each student and finds the missed questions
-
     int idNum;
     char ch;
     int missed[10] = {};
