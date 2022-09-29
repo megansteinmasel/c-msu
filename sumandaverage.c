@@ -2,6 +2,7 @@
 
 // Megan Steinmasel
 // September 2022
+// Program that passes by reference
 
 
 void ref(double *first, double *second, double *third){
