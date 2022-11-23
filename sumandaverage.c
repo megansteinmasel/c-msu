@@ -2,25 +2,22 @@
 
 // Megan Steinmasel
 // September 2022
-// Program that passes by reference
+// Program that passes three variables by reference to find the sum and average of the three variables
 
 
 void ref(double *first, double *second, double *third){
-    
+    // find the sum
     double sum;
     sum = *first + *second + *third;
-    
     printf("The sum is: %.2lf\n", sum);
 
+     // find the average
     double ave;
     ave = sum/3;
-
     printf("The average is: %.2lf\n", ave);
 
     return;
 }
-
-
 
 int main(){
     
@@ -43,6 +40,7 @@ int main(){
     scanf("%lf", &third);
     p3 = &third;
 
+    // pass by refrence
     ref(p1, p2, p3);
 
     return(0);
