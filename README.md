@@ -7,4 +7,4 @@ c-msu is a collection of various programming projects that were created while at
 * hurricane-data.c is a program that reads in hurricane data and writes a sorted list out to a file.
 * military.c is a program that calculates a military discount and sales tax based off of a user generated price.
 * planet.c is a program that uses structs to define a planet class.
-* sumandaverage.c is
+* sumandaverage.c is a program that gets three numbers from user input and passes them by reference to find the sum and average of the numbers.
