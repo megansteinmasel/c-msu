@@ -3,12 +3,11 @@
 #include <string.h>
 #include <ctype.h>
 
-// Megan Steinmasel
+// Author: Megan Steinmasel
 // October 2022
 // Program reads in hurricane data and writes a sorted list out to a file
 
 void selectionSort(char*strs[], int size, FILE *fileout){
-    
     // sorts strs array
     int i, j;
     char temp[100];
