@@ -4,10 +4,8 @@
 // September 2022
 // Program reads in a text file from the class server and computes exam grades
 
-
 int charOperations(FILE* fptr, char answers[], int numofq){
-
-// reads in the first line of the file
+ // reads in the first line of the file
 
     int n;
     char c;
@@ -23,7 +21,6 @@ int charOperations(FILE* fptr, char answers[], int numofq){
             answers[j] = c;
         }
     }
-
 
 // output
     printf("Question\t");
@@ -75,7 +72,6 @@ int charOperations(FILE* fptr, char answers[], int numofq){
         printf(" %d", m);
     }printf("\n");
 
-
     printf("Missed by\t");
     for(int s = 0; s < numofq; s++){
         printf(" %d", missed[s]);
@@ -102,13 +98,10 @@ int read(){
 
     // closes the file
     fclose(fptr);
-
     return(0);
 }
 
-
 int main(){
     read();
-
     return(0);
 }
