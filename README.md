@@ -6,5 +6,5 @@ c-msu is a collection of various programming projects that were created while at
 * exam-students.c is a program that reads in a text file from the class server and computes exam grades.
 * hurricane-data.c is a program that reads in hurricane data and writes a sorted list out to a file.
 * military.c is a program that calculates a military discount and sales tax based off of a user generated price.
-* planet.c
+* planet.c is a program that uses structs to define a planet class.
 * sumandaverage.c is
