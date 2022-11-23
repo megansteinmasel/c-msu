@@ -2,7 +2,7 @@
 
 // Author: Megan Steinmasel
 // September 2022
-// Program that passes three variables by reference to find the sum and average of the three variables
+// Program that gets three numbers from user input and passes them by reference to find the sum and average of the numbers
 
 void ref(double *first, double *second, double *third){
     // find the sum and print it
